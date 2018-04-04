@@ -1,3 +1,4 @@
+package principal;
 
 public interface TADPilha {
 	
@@ -8,10 +9,6 @@ public interface TADPilha {
 	public int top();
 	
 	public boolean isEmpty();
-	
-	public boolean isFull();
-	
-	public void imprimir();
 	
 	public int getQtdNodes();
 }

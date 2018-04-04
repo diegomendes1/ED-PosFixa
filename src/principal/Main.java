@@ -1,7 +1,7 @@
+package principal;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
-public class Teste {
+public class Main {
 	public static void main(String[] args) {
 		CalculadoraPosFixa calc = new CalculadoraPosFixa();
 		
@@ -11,5 +11,6 @@ public class Teste {
 		
 		int resultado = calc.calcularExpressao(texto);
 		System.out.println("Resultado: " + resultado);
+		scan.close();
 	}
 }

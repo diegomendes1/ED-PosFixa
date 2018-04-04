@@ -1,5 +1,4 @@
-import java.util.Iterator;
-
+package principal;
 public class PilhaDinamica implements TADPilha {
 
 	private NoLista topo;
@@ -32,24 +31,6 @@ public class PilhaDinamica implements TADPilha {
 
 	public boolean isEmpty() {
 		return (topo == null);
-	}
-
-	public boolean isFull() {
-		return false;
-	}
-
-	public void imprimir() {
-		if (!isEmpty()) {
-			NoLista p = topo;
-			System.out.print("\nTOPO");
-			while (p != null) {
-				System.out.print(" -> " + p.getValor());
-				p = p.getProximo();
-			}
-			System.out.println("");
-		} else {
-			System.out.println("Pilha vazia!");
-		}
 	}
 	
 	public int getQtdNodes() {

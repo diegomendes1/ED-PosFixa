@@ -1,3 +1,4 @@
+package principal;
 
 public class NoLista {
 	private int valor;
